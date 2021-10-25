@@ -111,20 +111,20 @@ var contactRight = document.querySelector('.contact-right-box');
 mobScreen.addListener(() => {
     if (mobScreen.matches) {
         contactRight.classList.remove('contactAnimation');
-        document.querySelector('.landing').style.backgroundImage = "url('../../Personal_Website/img/hero1.jpg')";
+        document.querySelector('.landing').style.backgroundImage = "url('../../img/hero1.jpg')";
     } else {
         contactRight.classList.toggle('contactAnimation');
-        document.querySelector('.landing').style.backgroundImage = "url('../../Personal_Website/img/hero.jpg')";
+        document.querySelector('.landing').style.backgroundImage = "url('../../img/hero.jpg')";
     }
 
 })
 
 if (mobScreen.matches) {
     contactRight.classList.remove('contactAnimation');
-    document.querySelector('.landing').style.backgroundImage = "url('../../Personal_Website/img/hero1.jpg')";
+    document.querySelector('.landing').style.backgroundImage = "url('../../img/hero1.jpg')";
 } else {
     contactRight.classList.toggle('contactAnimation');
-    document.querySelector('.landing').style.backgroundImage = "url('../../Personal_Website/img/hero.jpg')";
+    document.querySelector('.landing').style.backgroundImage = "url('../../img/hero.jpg')";
 }
 
 
